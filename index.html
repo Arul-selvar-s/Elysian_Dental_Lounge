@@ -25,17 +25,18 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
                     <a style="color: #183b56;
-    font-family: "Roboto"; " class="nav-link active" id="navItem1" href="#wcuSection">
+
+                    font-family: 'Roboto';" class="nav-link active" id="navItem1" href="#wcuSection">
                       
                         Why Choose Us?
                         <span class="sr-only">(current)</span>
                     </a>
                     <a style="color: #183b56;
-    font-family: "Roboto"; " class="nav-link" href="#exploreMenuSection" id="navItem2">Explore Services</a>
+    font-family: 'Roboto'; " class="nav-link" href="#exploreMenuSection" id="navItem2">Explore Services</a>
                     <a style="color: #183b56;
-    font-family: "Roboto"; " class="nav-link" href="#deliveryPaymentSection" id="navItem3">Book your appointment</a>
+    font-family: 'Roboto'; " class="nav-link" href="#bookappoinment" id="navItem3">Book your appointment</a>
                     <a style="color: #183b56;
-    font-family: "Roboto"; " class="nav-link" href="#followUsSection" id="navItem4">Contact Us</a>
+    font-family: 'Roboto'; " class="nav-link" href="#followUsSection" id="navItem4">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -213,6 +214,32 @@
             </div>
         </div>
     </div>
+
+    <div class="contact-container" id="bookappoinment">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>BOOK YOUR APPOINMENT</h2><hr>
+            </div>
+            <input type="hidden" name="access_key" value="4408ac14-5b0f-4656-ad8c-a76497a905a1">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Emai Id" class="contact-inputs" required>
+            <input type="text" name="phone" placeholder="Your WhatsApp Number" class="contact-inputs" required>
+            <select class="contact-inputs" name="service" required>
+            <option value="">Select your Service </option>
+              <option value="Prosthodontics">Prosthodontics</option>
+              <option value="Dental implants">Dental implants</option>
+              <option value="Orthodontics">Orthodontics</option>
+              <option value="Root Canal Treatment">Root Canal Treatment</option>
+              <option value="Smile Designing">Smile Designing</option>
+              <option value="Paediatric Dentistry">Paediatric Dentistry</option>
+              <option value="Diabetic Dental Care">Diabetic Dental Care</option>
+              <option value="Invisalign">Invisalign</option>
+              
+            </select>
+            <input class="contact-inputs" type="date" name="apoinment" placeholder="Your Name" required>
+            <button class="contact-inputs-button" type="submit" ><!-- onclick="alert('Submited Successfully')"--> Submit</button>
+        </form>
+    </div>
     
     <div class="thanking-customers-section pt-5 pb-5">
         <div class="container">
@@ -263,7 +290,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <img src="logoname.jpg" class="food-munch-logo" />
+                    <img src="logoname.jpg" class="food-munch-logo-footer" />
                     <h1 class="footer-section-mail-id">Elysian_Dental_Lounge.com</h1>
                     <p class="footer-section-address">
                         RAJA TOWERS, 2/461, Medavakkam Main Rd, Kovilambakkam, Chennai, Tamil Nadu 600129
